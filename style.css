@@ -1,15 +1,32 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: dark;
 }
 
 body {
   font-family: system-ui, sans-serif;
-  max-width: 640px;
-  margin: 4rem auto;
-  padding: 0 1.5rem;
   line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h1 {
-  font-size: 2rem;
+main {
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  max-width: 90vw;
+  width: 480px;
+  height: auto;
+}
+
+p {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #fff;
 }
